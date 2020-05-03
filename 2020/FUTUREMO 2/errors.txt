@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 185: expected end of line
+    stop sound "riendo.mp3" fadeout 2.0
+               ^
+
+File "game/script.rpy", line 191: expected end of line
+    stop sound "Ciudad.mp3" fadeout 2.0
+               ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Sun May 03 21:23:03 2020

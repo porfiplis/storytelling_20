@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+WindowsError: [Error 32] The process cannot access the file because it is being used by another process
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\LENOVO Z51\Desktop\renpy-7.3.5-sdk\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "C:\Users\LENOVO Z51\Desktop\renpy-7.3.5-sdk\renpy\main.py", line 534, in main
+    renpy.dump.dump(False)
+  File "C:\Users\LENOVO Z51\Desktop\renpy-7.3.5-sdk\renpy\dump.py", line 255, in dump
+    os.rename(new, args.json_dump)
+WindowsError: [Error 32] The process cannot access the file because it is being used by another process
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+FUTUREMO 1.0
+Sun May 03 21:01:51 2020
